@@ -2,3 +2,5 @@ stockEnv/*
 ./stockEnv/*
 financials_parquet/*
 ./financials_parquet/*
+temp/*
+./temp/*
