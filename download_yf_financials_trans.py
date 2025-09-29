@@ -10,7 +10,7 @@ OUTPUT_DIR = 'financials_parquet'
 OUTPUT_FILE_IS = 'income_statement_trans.parquet'
 OUTPUT_FILE_BS = 'balance_sheet_trans.parquet'
 OUTPUT_FILE_CF = 'cashflow_trans.parquet'
-BATCH_SIZE = 10
+BATCH_SIZE = 250
 
 # Ensure output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
